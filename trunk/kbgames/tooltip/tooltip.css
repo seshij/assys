@@ -1,0 +1,41 @@
+.tip {
+	background-color:#5A69B4;
+	border:1px solid #000000;
+	color:#FFFFFF;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:10px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	left:90px;
+	line-height:12px;
+	padding:1px;
+	position:absolute;
+	top:20px;
+	visibility:hidden;
+	width:270px;
+	z-index:100;
+}
+
+.tipErr {
+	background-color:#D50810;
+	border:1px solid #000000;
+	color:#FFFFFF;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:10px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:bold;
+	left:90px;
+	line-height:12px;
+	padding:1px;
+	position:absolute;
+	top:20px;
+	visibility:hidden;
+	width:270px;
+	z-index:100;
+}              

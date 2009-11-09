@@ -1,0 +1,301 @@
+/******************************************GENERAL********************************************/
+#div_titulo {
+    margin-top:3px;
+    margin-left:5px;
+}
+
+#divimg_titulo {
+    margin:5px 5px 5px 5px;
+}
+
+#contenedor{
+    margin: 0 auto;
+    text-align:left;
+    border:0px solid;
+    width:100%;
+}
+/******************************************HEADER********************************************/
+#header{
+    width:988px;
+    margin-left:44px;
+    background-color:white;
+    background-image: url("../images/frontend/fondo_header.jpg");
+    background-repeat: no-repeat;
+    vertical-align:middle;
+    border:0px solid;
+}
+
+#tabla_btns{
+    margin-left:20px;
+    margin-top:5px;
+}
+
+#separador{
+    width:341px;
+}
+
+#tabla_slogan{
+    padding-top:5px;
+    margin-left:20px;
+    vertical-align:middle;
+    border:0px solid;
+}
+
+html>body #tabla_registro{
+    padding:0;
+    margin-left:105px;
+    border:0px solid;
+}
+
+#tabla_registro{
+    padding:0;
+    margin-left:135px;
+    border:0px solid;
+}
+
+#form_registro{
+    padding:0;
+    margin:0;
+}
+
+#tabla_form {
+    margin-top:1px;
+    border:0px solid;
+}
+
+#usuario{
+    background-color:#91d862;
+    border:0px;
+    color:white;
+}
+#div_usuario{
+    width:120px;
+    background-color:#91d862;
+    padding:2px 0px 2px 10px;
+    margin-left:2px;
+}
+
+#password{
+    background-color:#91d862;
+    border:0px;
+    color:white;
+}
+
+#div_password{
+    width:120px;
+    background-color:#91d862;
+    padding:2px 0px 2px 10px;
+    margin-left:2px;
+}
+
+#form_busqueda{
+    padding:0;
+    margin:0;
+}
+
+#tabla_form_busqueda {
+    margin-top:1px;
+    margin-left:40px;
+    border:0px solid;
+}
+
+#btnsingin{
+    background-image: url("../images/frontend/btn_header.jpg");
+    border:0px;
+    width:28px;
+    height:21px;
+    margin-top:0px;
+    margin-bottom:0px;
+    color:#dbd9da;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+#criterio{
+    background-color:#68ccdc;
+    border:0px;
+    color:white;
+}
+#div_criterio{
+    width:150px;
+    background-color:#68ccdc;
+    padding:2px 0px 2px 10px;
+    margin-left:2px;
+}
+
+#btnbuscar{
+    background-image: url("../images/frontend/btn_header.jpg");
+    border:0px;
+    width:28px;
+    height:21px;
+    margin-top:0px;
+    margin-bottom:0px;
+    color:#dbd9da;
+    cursor: pointer;
+    text-decoration:none;
+}
+/******************************************MENU ACORDION********************************************/
+#contenedor_menu{
+    width: 250px;
+    text-align:center;
+    margin-top:5px;
+}
+
+#titulo_menu{
+    font-weight:bold;
+    color: #FFFFFF;
+    text-align:left;
+    width:100%;
+}
+
+.menu_list {
+    width: 100%;
+    padding-bottom:10px;
+}
+.menu_head {
+    padding: 5px 10px;
+    cursor: pointer;
+    position: relative;
+    margin:1px;
+    font-weight:bold;
+    color:#FFFFFF;
+    font-size:16px;
+}
+.menu_body {
+    display:none;
+}
+.menu_body a{
+    display:block;
+    color:#FFFFFF;
+    padding-left:10px;
+    font-weight:bold;
+    text-decoration:none;
+    font-size:16px;
+}
+.menu_body a:hover{
+    color: #FFFFFF;
+    text-decoration:none;
+}
+
+.menu_list a{
+    display:block;
+    color:#FFFFFF;
+    padding-left:10px;
+    font-weight:bold;
+    text-decoration:none;
+}
+.menu_list a:hover{
+    color: #FFFFFF;
+    text-decoration:none;
+}
+
+/******************************************MODULO ENCUESTA********************************************/
+
+#contenedor_encuesta{
+    width: 250px;
+    text-align:center;
+    margin-top:5px;
+}
+
+#titulo_encuesta{
+    font-weight:bold;
+    color: #FFFFFF;
+    text-align:left;
+    width:100%;
+}
+
+#opts_encuesta{
+    width:100%;
+    padding:0px 0px 0px 0px;
+    text-align:center;
+}
+
+#tbl_opciones{
+    width: 90%;
+    margin-top:10px;
+    margin-left:10px;
+    margin-bottom:10px;
+    text-align:center;
+    vertical-align:top;
+}
+
+#tbl_opciones p.pregunta{
+    color:#68ccdb;
+    font-weight:bold;
+    text-decoration:none;
+    text-align:left;
+    padding:0px 0px 0px 0px;
+    margin:0px 0px 10px 0px;
+    font-size:14px;
+}
+
+#tbl_opciones input.radiobtn{
+    margin:0px 0px 0px 15px;
+}
+
+#tbl_opciones label{
+    color:#909090;
+    font-weight:bold;
+    font-size:12px;
+    padding:0px 0px 0px 0px;
+    margin:0px 0px 15px 0px;
+}
+
+#btnvotar {
+    font-family:"Arial",Georgia,Serif;
+    background-image: url("../images/frontend/btnVotar.png");
+    border:0px;
+    font-weight:bold;
+    width:100px;
+    margin-top:15px;
+    margin-bottom:0px;
+    padding:5px 0px 5px 0px;
+    color:#694511;
+    font-size:14px;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+#btnresultados{
+    font-family:"Arial",Georgia,Serif;
+    background-image: url("../images/frontend/btnVotar.png");
+    border:0px;
+    font-weight:bold;
+    width:100px;
+    margin-top:15px;
+    margin-bottom:0px;
+    padding:5px 0px 5px 0px;
+    color:#694511;
+    font-size:14px;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+/******************************************MODULO CAJA DE SORPRESAS********************************************/
+
+#contenedor_sorpresas{
+    width: 250px;
+    text-align:center;
+    margin-top:5px;
+}
+
+#titulo_sorpresas{
+    width: 100%;
+}
+
+#link_sorpresas{
+    width: 100%;
+    padding:15px 0px 15px 0px;
+}
+
+#btnsorpresa{
+    background-image: url("../images/frontend/img_sorpresas.jpg");
+    border:0px;
+    width:235px;
+    height:170px;
+    margin-top:0px;
+    margin-bottom:0px;
+    color:#694511;
+    cursor: pointer;
+    text-decoration:none;
+}

@@ -1,0 +1,361 @@
+/* ThemeCSAMenu Style Sheet */
+
+.ThemeCSAMenu,.ThemeCSASubMenuTable
+{
+	
+	color:#538eac;
+	font-family:sans-serif;
+	text-align:justify;
+	font-size:	13px;
+	font-weight:bold;
+	
+	
+	cursor:	default;
+	
+	
+}
+
+.ThemeCSASubMenu
+{
+	
+	z-index:	0;
+	position:	absolute;
+	visibility:	hidden;
+	display:	block;
+	overflow:	hidden;
+
+	border:		0;
+	
+	background-color: inherit;
+	background-repeat: no-repeat;
+		
+	
+}
+
+.ThemeCSASubMenuShadow
+{
+	z-index:	-1;
+	position:	absolute;
+	top:		3px;
+	left:		3px;
+	width:		100%;
+	height:		300em;
+	background-color:	gray;
+	opacity:	0.5;
+	border:		0;
+	margin:		0;
+	
+	
+	
+}
+
+.ThemeCSASubMenuBorder
+{
+	border:		1px solid #9C9A9C;
+	background-color:	#F7F3F7;
+	background-repeat: no-repeat;
+	padding:	1px;
+	margin:		0px 3px 3px 0px;
+		
+
+}
+
+.ThemeCSASubMenuTable
+{
+	border-collapse: separate;
+	
+
+}
+
+.ThemeCSAMenuItem,.ThemeCSAMenuItemHover,.ThemeCSAMenuItemActive
+{
+	cursor:		default;
+	white-space:	nowrap;
+	
+}
+
+.ThemeCSAMainItem,
+.ThemeCSAMenuItem
+{
+	
+	background: url("background.jpg");
+	background-repeat: repeat-x;
+	text-align: left;
+	white-space:	nowrap;
+	
+
+}
+
+.ThemeCSAMainItemHover,
+.ThemeCSAMainItemActive,
+.ThemeCSAMenuItemHover,
+.ThemeCSAMenuItemActive
+{
+	background: url("background_over.jpg");
+	background-repeat: repeat-x;
+	text-align: left;
+	white-space:	nowrap;
+	
+
+}
+
+/* horizontal main menu sub components */
+/* panel doesn't really support horizontal menus */
+/* there are simpler approaches, but the setting here allows me to
+   set a background image for the menu without lines all over it */
+
+.ThemeCSAMainFolderLeft,.ThemeCSAMainItemLeft
+{
+	padding:	3px 0px 3px 3px;
+	border:		0;
+	white-space:	inherit;
+	background-color:	inherit;
+	background-repeat:repeat-x;
+		
+}
+
+/*
+Aqui van los bordes
+para el menu
+*/
+.ThemeCSAMainFolderText,
+.ThemeCSAMainItemText
+{
+
+	padding:	3px 0px 3px 3px;
+	border:		0;
+	border-style:solid;
+	border-width: 0px 0px 0px 0px;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF ;
+		 
+}
+
+.ThemeCSAMainItemRight,
+.ThemeCSAMainFolderRight
+{
+	padding:	3px 0px 3px 3px;
+	border-style:	solid;
+	border:		0;
+	white-space:	nowrap;
+	background-color:	inherit;
+	
+	 
+}
+
+/* hoover and active border */
+.ThemeCSAMainItemHover .ThemeCSAMainFolderLeft,
+.ThemeCSAMainItemActive .ThemeCSAMainFolderLeft,
+.ThemeCSAMainItemHover .ThemeCSAMainItemLeft,
+.ThemeCSAMainItemActive .ThemeCSAMainItemLeft,
+.ThemeCSAMainItemHover .ThemeCSAMainFolderText,
+.ThemeCSAMainItemActive .ThemeCSAMainFolderText,
+.ThemeCSAMainItemHover .ThemeCSAMainItemText,
+.ThemeCSAMainItemActive .ThemeCSAMainItemText,
+.ThemeCSAMainItemHover .ThemeCSAMainFolderRight,
+.ThemeCSAMainItemActive .ThemeCSAMainFolderRight,
+.ThemeCSAMainItemHover .ThemeCSAMainItemRight,
+.ThemeCSAMainItemActive .ThemeCSAMainItemRight
+{
+	border-color:	inherit;
+	
+	
+}
+/*campo principal de iconos activado por el mouse*/
+.ThemeCSAMainItemHover .ThemeCSAMainFolderLeft,
+.ThemeCSAMainItemActive .ThemeCSAMainFolderLeft,
+.ThemeCSAMainItemHover .ThemeCSAMainItemLeft,
+.ThemeCSAMainItemActive .ThemeCSAMainItemLeft
+{
+	border-width:	1px 0px 1px 0px;
+	border-style:	solid;
+	border-color: #2f90cd;
+	padding:	3px 0px 3px 3px;
+	background: url("background_over.jpg");
+	background-repeat: repeat-x;
+	
+}
+/*campo botones menu principal activados por el mouse */
+.ThemeCSAMainItemHover .ThemeCSAMainFolderText,
+.ThemeCSAMainItemActive .ThemeCSAMainFolderText,
+.ThemeCSAMainItemHover .ThemeCSAMainItemText,
+.ThemeCSAMainItemActive .ThemeCSAMainItemText
+{
+	border-width:	1px 1px 1px 0px;
+	border-style:	solid;
+	padding:	3px 0px 3px 3px;
+	border-color: #2f90cd;
+	background: url("background_over.jpg");
+	background-repeat: repeat-x;
+
+}
+
+.ThemeCSAMainItemHover .ThemeCSAMainFolderRight,
+.ThemeCSAMainItemActive .ThemeCSAMainFolderRight,
+.ThemeCSAMainItemHover .ThemeCSAMainItemRight,
+.ThemeCSAMainItemActive .ThemeCSAMainItemRight
+{
+	border-width:	1px 1px 1px 0px;
+	border-style:	solid;
+	padding:	2px 0px 2px 0px;
+	
+	
+}
+
+/* sub menus sub components */
+
+.ThemeCSAMenuFolderLeft,
+.ThemeCSAMenuItemLeft
+{
+	padding:	0px 0px 0px 0px;
+	border:		0;
+	white-space:	nowrap;
+	background-color:	inherit;
+	background-repeat: no-repeat;
+	
+	
+}
+
+/*
+Aqui van los 
+bordes para los sub menu
+*/
+.ThemeCSAMenuFolderText,
+.ThemeCSAMenuItemText
+{
+	padding:	3px 0px 3px 3px;
+	border:		0;
+	border-style:solid;
+	border-width: 0px 0px 0px 0px;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF ;
+		
+}
+
+.ThemeCSAMenuItemRight,
+.ThemeCSAMenuFolderRight
+{
+	padding:	3px 0px 3px 3px;
+
+	border:		0;
+	white-space:	nowrap;
+	background-color:	inherit;
+	background-repeat: no-repeat;
+	 
+}
+
+/* hoover and active border */
+.ThemeCSAMenuItemHover .ThemeCSAMenuFolderLeft,
+.ThemeCSAMenuItemActive .ThemeCSAMenuFolderLeft,
+.ThemeCSAMenuItemHover .ThemeCSAMenuItemLeft,
+.ThemeCSAMenuItemActive .ThemeCSAMenuItemLeft,
+.ThemeCSAMenuItemHover .ThemeCSAMenuFolderText,
+.ThemeCSAMenuItemActive .ThemeCSAMenuFolderText,
+.ThemeCSAMenuItemHover .ThemeCSAMenuItemText,
+.ThemeCSAMenuItemActive .ThemeCSAMenuItemText,
+.ThemeCSAMenuItemHover .ThemeCSAMenuFolderRight,
+.ThemeCSAMenuItemActive .ThemeCSAMenuFolderRight,
+.ThemeCSAMenuItemHover .ThemeCSAMenuItemRight,
+.ThemeCSAMenuItemActive .ThemeCSAMenuItemRight
+{
+	/*border-color:	inherit;*/
+	
+	
+}
+/*activacion de icon sub menu*/
+.ThemeCSAMenuItemHover .ThemeCSAMenuFolderLeft,
+.ThemeCSAMenuItemActive .ThemeCSAMenuFolderLeft,
+.ThemeCSAMenuItemHover .ThemeCSAMenuItemLeft,
+.ThemeCSAMenuItemActive .ThemeCSAMenuItemLeft
+{
+	border-width:	1px 0px 1px 0px;
+	border-style:	solid;
+	border-color: #2f90cd;
+	padding:	3px 0px 3px 3px;
+	background: url("background_over.jpg");
+	background-repeat: repeat-x;
+}
+/*activacion de sub menu*/
+.ThemeCSAMenuItemHover .ThemeCSAMenuFolderText,
+.ThemeCSAMenuItemActive .ThemeCSAMenuFolderText,
+.ThemeCSAMenuItemHover .ThemeCSAMenuItemText,
+.ThemeCSAMenuItemActive .ThemeCSAMenuItemText
+{
+	border-width:	1px 1px 1px 0px;
+	border-style:	solid;
+	border-color: #2f90cd;
+	padding:	3px 0px 3px 3px;
+	background: url("background_over.jpg");
+	background-repeat: repeat-x;
+	
+}
+/*in the moment none!*/
+.ThemeCSAMenuItemHover .ThemeCSAMenuFolderRight,
+.ThemeCSAMenuItemActive .ThemeCSAMenuFolderRight,
+.ThemeCSAMenuItemHover .ThemeCSAMenuItemRight,
+.ThemeCSAMenuItemActive .ThemeCSAMenuItemRight
+{
+	border-width:	2px 0px 0px 0px;
+	border-style:	solid;
+	border-color: #9C9A9C;
+	padding:	2px 0px 2px 3px;
+	
+	
+}
+
+td.ThemeCSAMenuSplit
+{
+	padding:	0px;
+	margin:		0px;
+	height:		7px;
+	border:		0px;
+	background-color:	#FF0000;
+	overflow:	hidden;
+	
+	
+}
+
+div.ThemeCSAMenuSplit
+{
+	display:	block;
+	margin:		3px;
+	height:		1px;
+	width:		100%;
+	overflow:	hidden;
+	background-color:	inherit;
+
+	border-style:	solid;
+	border-width:	1px 0px 0px 0px;
+	border-color:	#9C9A9C;
+	
+	
+}
+
+/* image shadow animation */
+
+/*
+	seq1:	image for normal
+	seq2:	image for hover and active
+
+	To use, in the icon field, input the following:
+	<img class="seq1" src="normal.gif" /><img class="seq2" src="hover.gif" />
+*/
+
+.ThemeCSAMenuItem img.seq1
+{
+	display:	inline;
+	
+}
+
+.ThemeCSAMenuItemHover seq2,
+.ThemeCSAMenuItemActive seq2
+{
+	display:	inline;
+	
+}
+
+.ThemeCSAMenuItem .seq2,
+.ThemeCSAMenuItemHover .seq1,
+.ThemeCSAMenuItemActive .seq1
+{
+	display:	none;
+	
+}
