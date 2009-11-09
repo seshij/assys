@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+  <menuitem text="Aplicacion">
+    <menuitem text="Salir" url="index.jsp?option=net.comtor.cpe.pagefactory.QuitFactory" description="Close Session" />
+  </menuitem>
+  <menuitem text="Configuracion">
+    <menuitem text="Usuarios" url="index.jsp?option=net.comtor.cpe.pagefactory.AdminUser" description="Manage Users" />
+    <menuitem text="Cambiar Contrasena" url="index.jsp?option=net.comtor.cpe.pagefactory.NewPasswordFactory&amp;action=changeui" description="Manage Profiles" />
+    <menuitem text="Configuracion" url="index.jsp?option=net.comtor.cpe.pagefactory.ConfigPageFactory" description="Manage Configuration" />
+  </menuitem>
+  <menuitem text="Funciones">
+    <menuitem text="Sitios" url="index.jsp?option=net.comtor.cpe.pagefactory.AdminSite" description="Manage Sites" />
+    <menuitem text="PC" url="index.jsp?option=net.comtor.cpe.pagefactory.AdminPc" description="Manage PC" />
+    <menuitem text="Tareas" url="index.jsp?option=net.comtor.cpe.pagefactory.AdminTask" description="Manage Tasks" />
+  </menuitem>
+  <menuitem text="Reportes">
+    <menuitem text="Uso de Red" url="index.jsp?option=net.comtor.cpe.pagefactory.NetUsePageFactory" description="Report Net Use" />
+  </menuitem>
+</menu>
+
