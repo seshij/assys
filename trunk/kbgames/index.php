@@ -20,42 +20,47 @@ include_once("lib/html.inc.php");
         </script>
     </head>
     <body>
-        <div id="contenedor">
-            <table align="center" width="1050" border="0" cellspacing="0" cellpadding="0" class="tblppal">
+            <table align="center" width="1050" border="1" cellspacing="0" cellpadding="0" id="contenedor">
                 <tr>
-                    <td colspan="2">
-                        <?
-                        require("femodules/mod_header.inc.php");
-                        ?>
-                    </td>
-                </tr>
-                <tr>
-                    <td width="290" style="vertical-align:top">
-                        <table width="250" style="margin-left:40px">
-                            <?
-                            require("femodules/mod_menu.inc.php");
-                            require("femodules/mod_encuesta.inc.php");
-                            require("femodules/mod_sorpresa.inc.php");
-                            ?>
+                    <td>
+                        <table align="center" width="90%" border="0" cellspacing="0" cellpadding="0" class="tblppal">
+                            <tr>
+                                <td colspan="2">
+                                    <?
+                                    require("femodules/mod_header.inc.php");
+                                    ?>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="290" style="vertical-align:top">
+                                    <table width="250" style="margin-left:40px">
+                                        <?
+                                        require("femodules/mod_menu.inc.php");
+                                        require("femodules/mod_encuesta.inc.php");
+                                        require("femodules/mod_sorpresa.inc.php");
+                                        ?>
+                                    </table>
+                                </td>
+                                <td style="vertical-align:top">
+                                    <?php
+                                    indexContent();
+                                    ?>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <?
+                                    //$cabezote=new HtmlFlashMovie("images/frontend/pieindex.swf",710,103,"pieindex","images/frontend/pieindex");
+                                    $cabezote=new HtmlImg("images/frontend/banner.jpg");
+                                    echo $cabezote->getHtml();
+                                    ?>
+                                </td>
+                            </tr>
                         </table>
                     </td>
-                    <td style="vertical-align:top">
-                        <?php
-                        indexContent();
-                        ?>
-                    </td>
                 </tr>
                 <tr>
-                    <td colspan="2">
-                        <?
-                        //$cabezote=new HtmlFlashMovie("images/frontend/pieindex.swf",710,103,"pieindex","images/frontend/pieindex");
-                        $cabezote=new HtmlImg("images/frontend/banner.jpg");
-                        echo $cabezote->getHtml();
-                        ?>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
+                    <td>
                         <?
                         $cabezote=new HtmlImg("images/frontend/footer.jpg");
                         echo $cabezote->getHtml();
@@ -63,6 +68,5 @@ include_once("lib/html.inc.php");
                     </td>
                 </tr>
             </table>
-        </div>
     </body>
 </html>
