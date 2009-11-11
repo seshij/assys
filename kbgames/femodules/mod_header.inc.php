@@ -75,41 +75,30 @@ echo $cont->getHtml();*/
 ?>
 <table cellspacing='0' cellpadding='0' id='header'>
     <tr>
-        <td align='left'>
-            <table border='0' cellspacing='0' cellpadding='0' id='tabla_btns'>
+        <td style="vertical-align:top">
+            <table cellspacing='0' cellpadding='0' class="buttons">
                 <tr>
-                    <td align='left'>
-                        <img src='images/frontend/logo_kbgames.jpg' border='0' hspace='0' vspace='0'/>
+                    <td rowspan="2" style="padding-top:25px">
+                        <img src='images/frontend/logo_kbgames.png' border='0' hspace='0' vspace='0'/>
                     </td>
-                    <td align='left'>
-                        <div id='separador'>
-                        </div>
-                    </td>
-                    <td align='left'>
-                        <img src='images/frontend/header_btn_nintendo.jpg' border='0' hspace='0' vspace='0'/>
-                    </td>
-                    <td align='left'>
-                        <img src='images/frontend/header_btn_play.jpg' border='0' hspace='0' vspace='0'/>
-                    </td>
-                    <td align='left'>
-                        <img src='images/frontend/header_btn_xbox.jpg' border='0' hspace='0' vspace='0'/>
+                    <td colspan="3">
+                        <ul id="navegacion_header">
+                            <li><a href="#">Ayuda</a> </li>
+                            <li><a href="#">Nuestras tiendas</a> </li>
+                            <li><a href="#">Mi cuenta</a> </li>
+                            <li><a href="#">Home</a> </li>
+                        </ul>
                     </td>
                 </tr>
-            </table>
-        </td>
-    </tr>
-    <tr>
-        <td align='left'>
-            <table width='700px' border='0' cellspacing='0' cellpadding='0' id='tabla_slogan'>
                 <tr>
-                    <td align='left' style="vertical-align:top">
-                        <img src='images/frontend/slogan.jpg' border='0' hspace='0' vspace='0'/>
+                    <td style="border:0px solid; text-align:center; padding-left:5px">
+                        <img src='images/frontend/logo_nintendo.png' border='0' hspace='0' vspace='0'/>
                     </td>
-                    <td align='left' style="vertical-align:top">
-                        <?require("femodules/mod_login.inc.php")?>
+                    <td style="border:0px solid; text-align:center; padding-right:10px">
+                        <img src='images/frontend/logo_playstation.png' border='0' hspace='0' vspace='0'/>
                     </td>
-                    <td align='left' style="vertical-align:top">
-                        <?require("femodules/mod_busqueda.inc.php")?>
+                    <td style="border:0px solid; text-align:center; padding-right:5px">
+                        <img src='images/frontend/logo_xbox.png' border='0' hspace='0' vspace='0'/>
                     </td>
                 </tr>
             </table>
