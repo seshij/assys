@@ -8,48 +8,59 @@
     margin:5px 5px 5px 5px;
 }
 
+#tblppal{
+    width:990px;
+    margin:0 auto;
+    padding-bottom:20px;
+    border:1px solid;
+}
+
 #contenedor{
-    margin: 0 auto;
-    text-align:left;
-    border:0px solid;
+    margin:0px;
+    padding:0px;
+    border:1px solid;
     width:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    text-align:center;
 }
 /******************************************HEADER********************************************/
 #header{
-    width:988px;
-    margin-left:44px;
-    background-color:white;
-    background-image: url("../images/frontend/fondo_header.jpg");
+    width:100%;
+    height:160px;
+    margin:0px;
+    padding:0px;
+    background-image: url("../images/frontend/header.jpg");
     background-repeat: no-repeat;
-    vertical-align:middle;
-    border:0px solid;
 }
 
-#tabla_btns{
+#header table.buttons{
+    width:950px;
     margin-left:20px;
-    margin-top:5px;
-}
-
-#separador{
-    width:341px;
-}
-
-#tabla_slogan{
-    padding-top:5px;
-    margin-left:20px;
-    vertical-align:middle;
     border:0px solid;
 }
 
-html>body #tabla_registro{
-    padding:0;
-    margin-left:105px;
+#navegacion_header{
+    list-style:none;
+    margin:0px 90px 0px 0px;
+    padding:0px 0px 90px 0px;
+}
+
+#navegacion_header li{
+    margin:2px;
+    padding:2px;
+    border:0px solid #CCCCCC;
+    float:right;
+}
+
+#under_header{
+    margin-left:390px;
     border:0px solid;
 }
 
-#tabla_registro{
-    padding:0;
-    margin-left:135px;
+html>body #under_header{
+    margin-left:365px;
     border:0px solid;
 }
 
@@ -136,9 +147,10 @@ html>body #tabla_registro{
 }
 /******************************************MENU ACORDION********************************************/
 #contenedor_menu{
-    width: 250px;
+    width: 100%;
     text-align:center;
     margin-top:5px;
+    border:0px solid;
 }
 
 #titulo_menu{
@@ -192,7 +204,7 @@ html>body #tabla_registro{
 /******************************************MODULO ENCUESTA********************************************/
 
 #contenedor_encuesta{
-    width: 250px;
+    width: 100%;
     text-align:center;
     margin-top:5px;
 }
@@ -274,7 +286,7 @@ html>body #tabla_registro{
 /******************************************MODULO CAJA DE SORPRESAS********************************************/
 
 #contenedor_sorpresas{
-    width: 250px;
+    width: 100%;
     text-align:center;
     margin-top:5px;
 }
@@ -298,4 +310,36 @@ html>body #tabla_registro{
     color:#694511;
     cursor: pointer;
     text-decoration:none;
+}
+
+/******************************************CONTENIDO********************************************/
+#contenido{
+    width:100%;
+    border:1px solid;
+     margin-top:5px;
+}
+
+
+/******************************************FOOTER********************************************/
+#above_footer{
+    width:100%;
+    background-color:#c8c8c8;
+    text-align:center;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#footer{
+    width:100%;
+    text-align:center;
+    background-color:#e3e3e3;
+}
+
+#footer div.img_footer{
+    width:990px;
+    height:140px;
+    margin:0 auto;
+    background-color:#e3e3e3;
+    background-image: url("../images/frontend/footer.jpg");
+    background-repeat: no-repeat;
 }
