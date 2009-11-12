@@ -351,6 +351,26 @@ html>body #banner_negro{
     text-align:center;
 }
 
+/******************************************TOP10*********************************************/
+#contenedor_top10{
+    width: 100%;
+    text-align:center;
+    margin-top:5px;
+}
+
+#titulo_top10{
+    font-weight:bold;
+    color: #FFFFFF;
+    text-align:left;
+    width:100%;
+}
+
+#top10_swf{
+    width:100%;
+    padding:0px 0px 0px 0px;
+    text-align:center;
+}
+
 /******************************************FOOTER********************************************/
 #above_footer{
     width:100%;
