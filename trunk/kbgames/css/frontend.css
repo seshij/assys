@@ -11,13 +11,13 @@
 #tblppal{
     width:990px;
     margin:0 auto;
-    border:1px solid;
+    border:0px solid;
 }
 
 #contenedor{
     margin:0px;
     padding:0px;
-    border:1px solid;
+    border:0px solid;
     width:100%;
     position:absolute;
     top:0px;
