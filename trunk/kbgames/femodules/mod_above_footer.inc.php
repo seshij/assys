@@ -6,7 +6,7 @@ include_once('lib/dao.inc.php');
     <tr>
         <td>
             <div id='above_footer' class='ui-corner-all'>
-                <?
+                <?php
                 $cabezote=new HtmlImg("images/frontend/banner.jpg");
                 echo $cabezote->getHtml();
                 ?>

@@ -1,5 +1,5 @@
 <?php
-include('foto_upload_script.php');
+include($_SERVER['DOCUMENT_ROOT'].'/foto_upload_script.php');
 include_once("lib/dao.inc.php");
 
 if($_POST['accion']=="upload") {
@@ -62,9 +62,9 @@ if($_POST['accion']=="upload") {
         $json['size'] = $_POST['MAX_FILE_SIZE'];
         $json['img'] = '';
 
-        $foto_upload->upload_dir = "./media/noticias/";
-        $foto_upload->foto_folder = "./media/noticias/";
-        $foto_upload->thumb_folder = "./media/noticias/thumbs/";
+        $foto_upload->upload_dir = $_SERVER['DOCUMENT_ROOT']."/kbgames/media/noticias/";
+        $foto_upload->foto_folder = $_SERVER['DOCUMENT_ROOT']."/kbgames/media/noticias/";
+        $foto_upload->thumb_folder = $_SERVER['DOCUMENT_ROOT']."/kbgames/media/noticias/thumbs/";
         $foto_upload->extensions = array(".jpg", ".gif", ".png",".jpeg");
         $foto_upload->language = "es";
         $foto_upload->x_max_size = 380;
@@ -125,8 +125,8 @@ if($_POST['accion']=="upload") {
                 }
             }else if($_POST['accion']=="delete_imgnoticia") {
                 //DaoMgr::getDao()->execute("delete from foto where id_foto=".$_POST['id_foto']);
-                    $dirf="./media/noticias";
-                    $dirt="./media/noticias/thumbs";
+                    $dirf=$_SERVER['DOCUMENT_ROOT']."/media/noticias";
+                    $dirt=$_SERVER['DOCUMENT_ROOT']."/media/noticias/thumbs";
 
                     unlink($dirf."/".str_replace(" ", "_",$_POST['nom_foto']));
                     unlink($dirt."/".str_replace(" ", "_",$_POST['nom_foto']));

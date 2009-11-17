@@ -213,6 +213,8 @@ html>body #under_header{
 #titulo_encuesta{
     font-weight:bold;
     color: #FFFFFF;
+    background-color:#dfdfde;
+    border: 1px solid #dfdfde;
     text-align:left;
     width:100%;
 }
@@ -292,27 +294,100 @@ html>body #under_header{
     margin-top:5px;
 }
 
-#titulo_sorpresas{
-    width: 100%;
-}
-
 #link_sorpresas{
     width: 100%;
-    padding:15px 0px 15px 0px;
+    padding:0px 0px 0px 0px;
 }
 
 #btnsorpresa{
-    background-image: url("../images/frontend/img_sorpresas.jpg");
+    background-image: url("../images/frontend/btn_sorpresas.jpg");
     border:0px;
-    width:235px;
-    height:170px;
+    width:735px;
+    height:152px;
     margin-top:0px;
     margin-bottom:0px;
     color:#694511;
     cursor: pointer;
+    background-repeat: no-repeat;
     text-decoration:none;
 }
 
+/******************************************MODULO SOPORTE Y JUEGA********************************************/
+
+#contenedor_soporte_juega{
+    width: 100%;
+    text-align:center;
+    margin-top:5px;
+}
+
+#link_soporte{
+    width: 100%;
+    padding:0px 0px 0px 0px;
+}
+
+#btnsoporte{
+    background-image: url("../images/frontend/btn_soporte.jpg");
+    border:0px;
+    width:356px;
+    height:182px;
+    margin-top:0px;
+    margin-bottom:0px;
+    color:#694511;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    text-decoration:none;
+}
+
+#link_juega{
+    width: 100%;
+    padding:0px 0px 0px 0px;
+}
+
+#btnjuega{
+    background-image: url("../images/frontend/btn_juega.jpg");
+    border:0px;
+    width:356px;
+    height:182px;
+    margin-left:22px;
+    margin-bottom:0px;
+    color:#694511;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    text-decoration:none;
+}
+
+/******************************************MODULO REGISTRATE************************************/
+#contenedor_registrate{
+    text-align:center;
+    margin-top:5px;
+}
+
+#link_registrate{
+    width:295px;
+    height:385px;
+    background-image:url("../images/frontend/banner_club.jpg");
+    padding:0px 0px 0px 0px;
+}
+
+#btnregistrate{
+    background-image: url("../images/frontend/btn_registrate.jpg");
+    border:0px;
+    width:182px;
+    height:38px;
+    margin-left:56px;
+    margin-top:320px;
+    color:#694511;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    text-decoration:none;
+}
+
+/******************************************MODULO TWITTER***************************************/
+#contenedor_twitter{
+    width: 100%;
+    text-align:center;
+    margin-top:5px;
+}
 /******************************************CONTENIDO********************************************/
 #contenido{
     width:735px;
@@ -361,13 +436,18 @@ html>body #banner_negro{
 #titulo_top10{
     font-weight:bold;
     color: #FFFFFF;
+    background-color:#c8c8c8;
+    border: 1px solid #c8c8c8;
     text-align:left;
     width:100%;
 }
 
 #top10_swf{
+    background-color:#EEEEEE;
     width:100%;
-    padding:0px 0px 0px 0px;
+    padding:0px 0px 10px 0px;
+    border: 0px solid #c8c8c8;
+    margin:0 auto;
     text-align:center;
 }
 
@@ -376,6 +456,8 @@ html>body #banner_negro{
     width:100%;
     background-color:#c8c8c8;
     text-align:center;
+    margin-top:10px;
+    margin-bottom:10px;
     padding-top:10px;
     padding-bottom:10px;
 }

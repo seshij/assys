@@ -1,4 +1,4 @@
-<?
+<?php
 
 $CWD = getcwd();
 $filename = __FILE__;
