@@ -1,4 +1,4 @@
-<?
+<?php
 include_once 'main.inc.php';
 include_once("lib/cfrontend.php");
 include_once("lib/html.inc.php");
@@ -294,6 +294,25 @@ include_once("lib/html.inc.php");
             }
             // -->
         </script>
+        <style type="text/css">
+            <!--
+            .backtopwii {
+                background-image: url(fondo_topwii.png);
+                margin: 0px;
+                padding: 0px;
+                height: 278px;
+                width: 715px;
+                background-repeat: no-repeat;
+            }
+            .backfooterjuegos {
+                background-image: url(back_juegosfooter.gif);
+                background-repeat: no-repeat;
+                height: 153px;
+                width: 715px;
+            }
+            -->
+        </style>
+        <script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
     </head>
     <body>
         <table cellspacing="0" cellpadding="0" id="contenedor">
@@ -302,25 +321,25 @@ include_once("lib/html.inc.php");
                     <table cellspacing="0" cellpadding="0" id="tblppal">
                         <tr>
                             <td colspan="2">
-                                <?
+                                <?php
                                 require("femodules/mod_header.inc.php");
                                 ?>
                             </td>
                         </tr>
                         <tr>
                             <td colspan="2">
-                                <?
+                                <?php
                                 require("femodules/mod_under_header.inc.php");
                                 ?>
                             </td>
                         </tr>
                         <tr>
-                            <td width="250">
+                            <td width="250" style="vertical-align:top">
                                 <table width="250">
-                                    <?
+                                    <?php
                                     require("femodules/mod_menu.inc.php");
+                                    require("femodules/mod_twitter.inc.php");
                                     require("femodules/mod_encuesta.inc.php");
-                                    require("femodules/mod_sorpresa.inc.php");
                                     ?>
                                 </table>
                             </td>
@@ -332,7 +351,7 @@ include_once("lib/html.inc.php");
                         </tr>
                         <tr>
                             <td colspan="2">
-                                <?
+                                <?php
                                 require("femodules/mod_above_footer.inc.php");
                                 ?>
                             </td>

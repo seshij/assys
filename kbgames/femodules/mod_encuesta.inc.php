@@ -33,7 +33,7 @@ $table->addAttribute("cellpadding", "0");
 
 //Titulo de la encuesta en un DIV dentro de la primera fila de la tabla
 $div=new HtmlDiv("titulo_encuesta");
-$div->addAttribute("class", "ui-widget ui-widget-header ui-corner-top");
+$div->addAttribute("class", "ui-corner-top");
 $div_titulo=new HtmlDiv("divimg_titulo");
 $div_titulo->addElement(new HtmlText("<img src='images/frontend/header_encuesta.jpg'>"));
 $div->addElement($div_titulo);

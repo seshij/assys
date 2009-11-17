@@ -1,4 +1,4 @@
-<?
+<?php
 include_once("lib/cmsadmin.php");
 echo($_SERVER['DOCUMENT_ROOT']);
 ?>

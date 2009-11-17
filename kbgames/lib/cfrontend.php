@@ -39,8 +39,6 @@ function getIncludeOption($option){
 	if ($option == NULL){
 		$option = "default";
 	}
-        echo("frontend/" . $option . ".inc.php");
 	return "frontend/" . $option . ".inc.php";
 }
-
 ?>

@@ -28,7 +28,8 @@ function buildMenu3($myRoot,&$menu,$sp="") {
         }
 
         if($myRoot=="-1" && $mirow['nodo_terminal']) {
-            $menu->addElement(new HtmlText("<a href='admin.php?option=juegos&padre=".$id."'><p id='header".(i+1)."' class='menu_head'>".$name."</p></a>"));
+            $newname = strtolower(str_replace(" ", "_", $name));
+            $menu->addElement(new HtmlText("<a href='index.php?option=".$newname."&padre=".$id."'><p id='header".(i+1)."' class='menu_head'>".$name."</p></a>"));
             //buildMenu3($id,$menu);
             buildMenu3($id,$div,$sp."&nbsp;&nbsp;");
         }
@@ -47,7 +48,8 @@ function buildMenu3($myRoot,&$menu,$sp="") {
         }
 
         if($myRoot!="-1" && $mirow['nodo_terminal']) {
-            $menu->addElement(new HtmlText("<a href='admin.php?option=juegos&padre=".$id."'>".$sp.$name."</a>"));
+            $newname = strtolower(str_replace(" ", "_", $name));
+            $menu->addElement(new HtmlText("<a href='index.php?option=".$newname."&padre=".$id."'>".$sp.$name."</a>"));
             buildMenu3($id,$div,$sp);
         }
     }
